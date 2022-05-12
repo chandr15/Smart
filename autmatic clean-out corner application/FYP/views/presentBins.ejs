@@ -1,0 +1,95 @@
+<%- include("./partials/head.ejs") %>
+
+  <body id="page-top">
+   
+    <div id="wrapper">
+ 
+      <%- include("./partials/sideBar.ejs") %>
+      
+
+      <div id="content-wrapper" class="d-flex flex-column">
+        
+        <div id="content">
+      
+              <%- include("./partials/topbar.ejs") %>
+          
+
+          
+
+              <div class="container-fluid">
+
+                <h1 class="h3 mb-2 text-gray-800">Bin Locality Information</h1>
+                
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Last Updated on - NA</h6>
+                  </div>
+                  <div class="card-body">
+                    <div class="table-responsive">
+                      <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                        <thead>
+                          <tr>
+                            <th>State</th>
+                            <th>Pin Code</th>
+                            <th>Lattitude</th>
+                            <th>Longitude</th>
+                            <th>Area Code</th>
+                            
+                          </tr>
+                        </thead>
+                        <tfoot>
+                          <tr>
+                            <th>State</th>
+                            <th>Pin Code</th>
+                            <th>Lattitude</th>
+                            <th>Longitude</th>
+                            <th>Area Code</th>
+                            
+                          </tr>
+                        </tfoot>
+                        <tbody>
+                          <tr>
+                            <td>Uttar Pradesh</td>
+                            <td>201301</td>
+                            <td>41.40338</td>
+                            <td><center>2.17403</center></td>
+                            <td><center>AR21</center></td>
+                            
+                          </tr>
+                          
+                          
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+      
+            </div>
+
+              
+            </div>  
+        </div>
+        
+
+      
+        <%- include("./partials/footer.ejs") %>
+  
+      </div>
+      
+    </div>
+
+
+    
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    
+    <%- include("./partials/lout.ejs") %>
+
+    
+    <%- include("./partials/btrap.ejs") %>
+  </body>
+</html>
